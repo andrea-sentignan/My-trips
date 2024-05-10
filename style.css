@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 80%;
+    height: 300px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.banner-content h1,
+.banner-content h2,
+.banner-content p,
+.banner-content a { margin: 10px 0; }
+
+
+.container {
+	width: 700px;
+	margin: 30 auto;
+	text-align: center;
+}
+
+.card img {
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+a {text-decoration: none;}
